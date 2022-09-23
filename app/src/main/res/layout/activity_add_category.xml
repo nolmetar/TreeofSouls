@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.view.activity.AddCategoryActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/title_bottom_margin"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/add_category_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/title_width"
+            android:minHeight="@dimen/title_height"
+            android:text="@string/title_add_category"
+            android:textSize="@dimen/title_size"
+
+            android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/add_category_button_validate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="@dimen/button_validate_width_height"
+            android:minHeight="@dimen/button_validate_width_height"
+            android:maxWidth="@dimen/button_validate_width_height"
+            android:maxHeight="@dimen/button_validate_width_height"
+            android:src="@drawable/ic_validate"
+            android:background="@drawable/border"
+            android:contentDescription="@string/description_button_validate"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/add_category_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/text_margin"
+                android:minWidth="@dimen/edittext_add_category_width"
+                android:minHeight="@dimen/edittext_title_add_category_height"
+                android:hint="@string/title_hint"
+                android:layout_gravity="center_horizontal"
+                android:autofillHints="add_category_name"
+                android:inputType="textPersonName"
+                android:background="@drawable/border"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/add_category_begin_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="@dimen/button_date_add_category_width"
+                    android:minHeight="@dimen/button_date_add_category_height"
+                    android:text="@string/add_category_button_begin_date"
+                    android:layout_gravity="center_horizontal"
+                    android:enabled="true"/>
+
+                <CheckBox
+                    android:id="@+id/add_category_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/checkbox_add_category_width_height"
+                    android:minWidth="@dimen/checkbox_add_category_width_height"
+                    android:layout_marginEnd="@dimen/check_bock_margin"/>
+
+                <Button
+                    android:id="@+id/add_category_final_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="@dimen/button_date_add_category_width"
+                    android:minHeight="@dimen/button_date_add_category_height"
+                    android:text="@string/add_category_button_final_date"
+                    android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/add_category_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/edittext_add_category_width"
+                android:minHeight="@dimen/edittext_friends_add_category_height"
+                android:hint="@string/friend_hint"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginBottom="@dimen/text_margin"
+                android:layout_gravity="center_horizontal"
+                android:autofillHints="add_category_friends"
+                android:inputType="textMultiLine"
+                android:background="@drawable/border"
+                android:gravity="top"
+                android:padding="@dimen/category_padding"
+                android:minLines="3"
+                android:maxLines="3"
+                android:scrollbars="vertical"/>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/add_category_layout_color">
+
+                    <ImageButton
+                        android:id="@+id/add_category_button_white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minWidth="@dimen/button_color_add_category_width_height"
+                        android:maxWidth="@dimen/button_color_add_category_width_height"
+                        android:minHeight="@dimen/button_color_add_category_width_height"
+                        android:maxHeight="@dimen/button_color_add_category_width_height"
+                        android:layout_margin="@dimen/button_color_add_category_margin"
+                        android:layout_gravity="center_vertical"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/ic_selected"
+                        android:contentDescription="@string/description_button_color"/>
+
+                    <ImageButton
+                        android:id="@+id/add_category_button_blue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minWidth="@dimen/button_color_add_category_width_height"
+                        android:maxWidth="@dimen/button_color_add_category_width_height"
+                        android:minHeight="@dimen/button_color_add_category_width_height"
+                        android:maxHeight="@dimen/button_color_add_category_width_height"
+                        android:layout_margin="@dimen/button_color_add_category_margin"
+                        android:layout_gravity="center_vertical"
+                        android:backgroundTint="@color/light_blue_600"
+                        android:contentDescription="@string/description_button_color"/>
+
+                    <ImageButton
+                        android:id="@+id/add_category_button_teal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minWidth="@dimen/button_color_add_category_width_height"
+                        android:maxWidth="@dimen/button_color_add_category_width_height"
+                        android:minHeight="@dimen/button_color_add_category_width_height"
+                        android:maxHeight="@dimen/button_color_add_category_width_height"
+                        android:layout_margin="@dimen/button_color_add_category_margin"
+                        android:layout_gravity="center_vertical"
+                        android:backgroundTint="@color/teal_200"
+                        android:contentDescription="@string/description_button_color"/>
+
+                    <ImageButton
+                        android:id="@+id/add_category_button_purple"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minWidth="@dimen/button_color_add_category_width_height"
+                        android:maxWidth="@dimen/button_color_add_category_width_height"
+                        android:minHeight="@dimen/button_color_add_category_width_height"
+                        android:maxHeight="@dimen/button_color_add_category_width_height"
+                        android:layout_margin="@dimen/button_color_add_category_margin"
+                        android:layout_gravity="center_vertical"
+                        android:backgroundTint="@color/purple_200"
+                        android:contentDescription="@string/description_button_color"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Button
+                android:id="@+id/add_category_button_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/between_two_block_margin"
+                android:text="@string/add_button_delete_text"
+                android:backgroundTint="@color/red"
+                android:minWidth="@dimen/button_delete_width"
+                android:visibility="gone"
+                android:contentDescription="@string/description_button_color"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,86 @@
+<resources>
+    <dimen name="title_size">40sp</dimen>
+    <dimen name="title_width">300sp</dimen>
+    <dimen name="title_height">65sp</dimen>
+    <dimen name="button_validate_width_height">65sp</dimen>
+    <dimen name="title_bottom_margin">32sp</dimen>
+    <dimen name="title_block_size">25sp</dimen>
+    <dimen name="title_fragment_size">25sp</dimen>
+
+    <dimen name="fab_margin">16sp</dimen>
+    <dimen name="text_margin">16sp</dimen>
+    <dimen name="image_margin">16sp</dimen>
+    <dimen name="video_margin">16sp</dimen>
+    <dimen name="audio_margin">16sp</dimen>
+    <dimen name="button_margin">16sp</dimen>
+    <dimen name="radiobutton_margin">8sp</dimen>
+    <dimen name="button_theme_settings_margin">10sp</dimen>
+    <dimen name="button_color_add_category_margin">10sp</dimen>
+    <dimen name="between_two_block_margin">50sp</dimen>
+    <dimen name="check_bock_margin">50sp</dimen>
+    <dimen name="button_qr_friends_add_friend_margin">10sp</dimen>
+    <dimen name="layout_margin">16sp</dimen>
+    <dimen name="item_margin">8sp</dimen>
+
+    <dimen name="image_category_width_height">100sp</dimen>
+    <dimen name="text_category_height">50sp</dimen>
+    <dimen name="text_category_width">254sp</dimen>
+
+    <dimen name="text_friend_height">32sp</dimen>
+
+    <dimen name="image_memory_highlight_width">370sp</dimen>
+    <dimen name="image_memory_height">502sp</dimen>
+    <dimen name="text_memory_highlight_height">50sp</dimen>
+    <dimen name="text_memory_highlight_width">370sp</dimen>
+    <dimen name="text_memory_highlight_size">20sp</dimen>
+
+    <dimen name="button_audio_width">65sp</dimen>
+    <dimen name="bar_audio_width">165sp</dimen>
+    <dimen name="timer_audio_width">63sp</dimen>
+    <dimen name="audio_height">75sp</dimen>
+
+    <dimen name="title_highlight_width">300sp</dimen>
+    <dimen name="button_highlight_width_height">40sp</dimen>
+    <dimen name="image_highlight_height">436sp</dimen>
+
+    <dimen name="button_image_profile_width_height">290sp</dimen>
+    <dimen name="edittext_profile_width">290sp</dimen>
+    <dimen name="edittext_profile_height">40sp</dimen>
+    <dimen name="birthday_button_profile_width">290sp</dimen>
+    <dimen name="birthday_button_profile_height">40sp</dimen>
+
+    <dimen name="create_button_profile_width">290sp</dimen>
+    <dimen name="create_button_profile_height">103sp</dimen>
+
+    <dimen name="button_theme_settings_width_height">75sp</dimen>
+
+    <dimen name="button_media_add_memory_width">370sp</dimen>
+    <dimen name="button_media_add_memory_height">100sp</dimen>
+    <dimen name="edittext_description_add_memory_width">370sp</dimen>
+    <dimen name="edittext_gps_add_memory_width">370sp</dimen>
+    <dimen name="edittext_description_add_memory_height">100sp</dimen>
+    <dimen name="edittext_gps_tag_add_memory_height">40sp</dimen>
+    <dimen name="button_gps_add_memory_width_height">40sp</dimen>
+
+    <dimen name="edittext_add_category_width">370sp</dimen>
+    <dimen name="edittext_title_add_category_height">50sp</dimen>
+    <dimen name="edittext_friends_add_category_height">100sp</dimen>
+    <dimen name="button_date_add_category_width">130sp</dimen>
+    <dimen name="button_date_add_category_height">50sp</dimen>
+    <dimen name="checkbox_add_category_width_height">40sp</dimen>
+    <dimen name="button_color_add_category_width_height">75sp</dimen>
+
+    <dimen name="button_qr_friend_add_friend_width_height">160sp</dimen>
+    <dimen name="add_friend_width">370sp</dimen>
+    <dimen name="add_friend_height">50sp</dimen>
+
+    <dimen name="button_delete_width">370sp</dimen>
+    <dimen name="button_delete_height">100sp</dimen>
+
+    <dimen name="add_memory_button_width">370sp</dimen>
+    <dimen name="add_memory_button_height">75sp</dimen>
+    <dimen name="memory_padding">10sp</dimen>
+    <dimen name="memory_image_padding">5sp</dimen>
+    <dimen name="layout_memory_padding">10sp</dimen>
+    <dimen name="category_padding">10sp</dimen>
+</resources>

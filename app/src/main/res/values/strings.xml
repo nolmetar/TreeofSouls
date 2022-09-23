@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Tree of Souls</string>
+    <string name="action_settings">Options</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Bonjour premier fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="help_button_mail">This is a mail button</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="title_settings">Settings</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_block_theme">Themes</string>
+    <string name="title_add_memory">Add Memory</string>
+    <string name="title_add_category">Add Category</string>
+    <string name="title_add_friend">Add Friend</string>
+    <string name="title_create_profile">Create Profile</string>
+    <string name="title_calendar">Calendar</string>
+
+    <string name="settings_button_delete">Delete All Data</string>
+    <string name="add_memory_button_media">Click here to insert</string>
+    <string name="add_category_button_begin_date">Begin Date</string>
+    <string name="add_category_button_final_date">Final Date</string>
+    <string name="create_profile_button_create">Create</string>
+
+    <string name="button_birthday">Birthday</string>
+
+    <string name="name_hint">Name</string>
+    <string name="firstname_hint">First Name</string>
+    <string name="tag_hint">#tags</string>
+    <string name="description_hint">Description</string>
+    <string name="title_hint">Title</string>
+    <string name="gps_hint">GPS</string>
+    <string name="friend_hint">Friends</string>
+
+    <string name="fragment_category_title_text">Categories</string>
+    <string name="fragment_memory_title_text">Memories</string>
+    <string name="fragment_map_title_text">Map</string>
+    <string name="fragment_highlight_title_text">Highlights</string>
+    <string name="fragment_friend_title_text">Friends</string>
+
+    <string name="add_button_delete_text">Delete</string>
+
+    <string name="description_button_validate">Validate</string>
+    <string name="description_button_color">Color</string>
+    <string name="description_button_qr">QR</string>
+    <string name="description_button_friend">Friends</string>
+    <string name="description_button_media">Media</string>
+    <string name="description_button_image_profile">Image Profile</string>
+    <string name="description_button_add">Add</string>
+    <string name="description_image_category">Image Category</string>
+    <string name="description_button_share">Share</string>
+    <string name="description_button_play">Play</string>
+    <string name="description_image_memory">Memory</string>
+
+    <string name="title_menu_home">Home</string>
+    <string name="title_menu_highlight">Highlight</string>
+    <string name="title_menu_category">Category</string>
+    <string name="title_menu_map">Map</string>
+    <string name="title_menu_friend">Friends</string>
+
+    <string name="radio_button_audio">Audio</string>
+    <string name="radio_button_video">Video</string>
+    <string name="radio_button_photo">Photo</string>
+
+
+    <string name="example_description">Example Description</string>
+    <string name="example_friend">Example Friend,</string>
+    <string name="example_category">Example Category Name</string>
+    <string name="example_title">Example Title</string>
+    <string name="example_timer">10:10</string>
+
+    <string name="example_friend_name">Kraus</string>
+    <string name="example_friend_firstname">Jonathan</string>
+    <string name="example_friend_birthdate">27/10/1999</string>
+
+    <string name="example_category_name">Barcelone</string>
+    <string name="example_category_count">4</string>
+
+    <string name="add_photo_with_camera_button">Take a picture</string>
+    <string name="add_photo_with_gallery_button">Choose from gallery</string>
+    <string name="add_category_in_memory">Category</string>
+</resources>

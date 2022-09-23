@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    android:layout_marginTop="@dimen/item_margin"
+    android:layout_marginBottom="@dimen/item_margin">
+
+    <ImageView
+        android:id="@+id/memory_photo_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:minHeight="@dimen/image_memory_height"
+        android:minWidth="@dimen/image_memory_highlight_width"
+        android:src="@drawable/ic_category"
+        android:background="@drawable/border"
+        android:contentDescription="@string/description_image_memory"
+        android:padding="@dimen/memory_image_padding"/>
+
+    <TextView
+        android:id="@+id/memory_photo_descprition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/text_margin"
+        android:layout_marginLeft="@dimen/text_margin"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:minHeight="@dimen/text_memory_highlight_height"
+        android:maxWidth="@dimen/text_memory_highlight_width"
+        android:text="@string/example_description"
+        android:textSize="@dimen/text_memory_highlight_size"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/memory_photo_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/text_margin"
+        android:layout_marginLeft="@dimen/text_margin"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:minHeight="@dimen/text_memory_highlight_height"
+        android:maxWidth="@dimen/text_memory_highlight_width"
+        android:textColor="@color/light_blue_600"
+        android:text="@string/example_friend"
+        android:textSize="@dimen/text_memory_highlight_size"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/memory_photo_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_margin"
+        android:layout_marginRight="@dimen/text_margin"
+        android:layout_marginLeft="@dimen/text_margin"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:minHeight="@dimen/text_memory_highlight_height"
+        android:maxWidth="@dimen/text_memory_highlight_width"
+        android:text="@string/example_category"
+        android:textSize="@dimen/text_memory_highlight_size"
+        android:gravity="center"/>
+
+</LinearLayout>

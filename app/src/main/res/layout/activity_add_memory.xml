@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.view.activity.AddCategoryActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/title_bottom_margin"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/add_memory_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/title_width"
+            android:minHeight="@dimen/title_height"
+            android:text="@string/title_add_memory"
+            android:textSize="@dimen/title_size"
+            android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/add_memory_button_validate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="@dimen/button_validate_width_height"
+            android:minHeight="@dimen/button_validate_width_height"
+            android:src="@drawable/ic_validate"
+            android:background="@drawable/border"
+            android:contentDescription="@string/description_button_validate"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/add_memory_scroll_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginEnd="@dimen/layout_margin"
+            android:layout_marginStart="@dimen/layout_margin">
+
+            <LinearLayout
+                android:id="@+id/add_memory_linearlayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginEnd="@dimen/layout_margin"
+                android:layout_marginStart="@dimen/layout_margin"
+                android:background="@drawable/border"
+                android:padding="@dimen/layout_memory_padding"
+                android:layout_marginBottom="@dimen/image_margin">
+
+                <Button
+                    android:id="@+id/add_memory_button_camera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_photo_with_camera_button"
+                    android:minWidth="@dimen/button_media_add_memory_width"
+                    android:minHeight="@dimen/add_memory_button_height"
+                    android:layout_marginBottom="@dimen/image_margin"
+                    android:layout_gravity="center_horizontal" />
+
+                <Button
+                    android:id="@+id/add_memory_button_media"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_photo_with_gallery_button"
+                    android:minWidth="@dimen/button_media_add_memory_width"
+                    android:minHeight="@dimen/add_memory_button_height"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/add_memory_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/edittext_description_add_memory_width"
+                android:minHeight="@dimen/edittext_description_add_memory_height"
+                android:layout_marginBottom="@dimen/image_margin"
+                android:hint="@string/description_hint"
+                android:layout_gravity="center_horizontal"
+                android:autofillHints="add_memory_description"
+                android:inputType="textMultiLine"
+                android:background="@drawable/border"
+                android:gravity="top"
+                android:padding="@dimen/memory_padding"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/add_memory_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/edittext_add_category_width"
+                android:minHeight="@dimen/edittext_title_add_category_height"
+                android:inputType="text"
+                android:background="@drawable/border"
+                android:hint="@string/add_category_in_memory"
+                android:padding="@dimen/memory_padding"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/add_memory_button_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/between_two_block_margin"
+                android:text="@string/add_button_delete_text"
+                android:backgroundTint="@color/red"
+                android:minWidth="@dimen/button_delete_width"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

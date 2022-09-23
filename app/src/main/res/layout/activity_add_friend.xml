@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.view.activity.AddCategoryActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/title_bottom_margin">
+
+        <TextView
+            android:id="@+id/add_friend_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/title_width"
+            android:minHeight="@dimen/title_height"
+            android:text="@string/title_add_friend"
+            android:textSize="@dimen/title_size"
+            android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/add_friend_button_validate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:minWidth="@dimen/button_validate_width_height"
+            android:minHeight="@dimen/button_validate_width_height"
+            android:src="@drawable/ic_validate"
+            android:background="@drawable/border"
+            android:contentDescription="@string/description_button_validate"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginEnd="@dimen/layout_margin"
+            android:layout_marginStart="@dimen/layout_margin">
+
+            <EditText
+                android:id="@+id/add_friend_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/between_two_block_margin"
+                android:minWidth="@dimen/add_friend_width"
+                android:minHeight="@dimen/add_friend_height"
+                android:hint="@string/name_hint"
+                android:layout_gravity="center_horizontal"
+                android:autofillHints="add_friend_name"
+                android:inputType="textPersonName"
+                android:background="@drawable/border"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/add_friend_firstname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginBottom="@dimen/text_margin"
+                android:minWidth="@dimen/add_friend_width"
+                android:minHeight="@dimen/add_friend_height"
+                android:hint="@string/firstname_hint"
+                android:layout_gravity="center_horizontal"
+                android:autofillHints="add_friend_firstname"
+                android:inputType="textPersonName"
+                android:background="@drawable/border"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/add_friend_button_birthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/add_friend_width"
+                android:maxWidth="@dimen/add_friend_width"
+                android:minHeight="@dimen/add_friend_height"
+                android:maxHeight="@dimen/add_friend_height"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/button_birthday" />
+
+            <Button
+                android:id="@+id/add_friend_button_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/between_two_block_margin"
+                android:text="@string/add_button_delete_text"
+                android:backgroundTint="@color/red"
+                android:minWidth="@dimen/button_delete_width"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
